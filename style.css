@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;600;700&family=Inter:wght@400;500&family=Montserrat:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#headerMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+}
+
+#headerButton {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 35px;
+    gap: 10px;
+    width: 103px;
+    height: 20px;
+    background: #F1554C;
+    border-radius: 7px;
+    text-align: center;
+}
+
+#headerLogo {
+    margin-right:300px;
+}
+
+#headerNav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#headerNav a {
+    text-decoration: none;
+    color: black;
+}
+
+#headerButton {
+    margin-left: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#textoSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35em;
+}
+
+#textSecDiv {
+    width: 385px;
+    height: 350px;
+    margin-right: 150px;
+    margin-top: 0;
+    
+}
+
+#desafioDevboost {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #414246;
+}
+
+#textSecDiv h2 {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 45px;
+    color: #393D51;
+}
+
+#spanDevBoost {
+    color: #F1554C;
+}
+
+#secondPText  {
+    margin-top: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #414246;
+}
+
+#desafioDevButton {
+    display: flex;
+    align-items: center;
+}
+
+#buttonTextSection {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 30px;
+    padding: 10px 35px;
+    gap: 10px;
+    background: #F1554C;
+    border-radius: 7px;
+    width: 90px;
+    height: 25px;
+}
+
+#buttonTextSection a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+#playSection {
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+#playSection a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #393D51;
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#imagemSection {
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+
+
+
+@media screen and (max-width:768px) {
+   * {
+    padding: 0;
+    margin: 0;
+   }   
+    #headerMain {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width:100%;
+        margin-top: 10px;
+    }
+
+    #headerLogo {
+        width: 0;
+    }
+    
+    #headerNav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    #headerButton {
+        display: none;
+    }
+
+    #textoSection {
+        display: inline-block;
+        width: 100%;
+        margin-top: 30px;
+    }    
+
+    #textSecDiv {
+        width: 100%;
+        margin: 0;
+    }
+
+    #textSecDiv h2 {
+        text-align: center;
+        font-size: 35px;
+        line-height: 33px;
+    }
+
+    #desafioDevboost {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    #secondPText {
+        text-align: center;
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    #desafioDevButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #buttonTextSection {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        padding: 10px 35px;
+        background: #F1554C;
+        border-radius: 7px;
+        width: 70px;
+        height: 20px;
+    }
+
+    #buttonTextSection a {
+        text-align: center;
+        font-size: 12px;
+    }
+
+   
+    #playSection a {
+        font-size: 12px;
+    }
+
+    #imagemSection {
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    #imagemSection img {
+        margin:0;
+        display: inline-block;
+        text-align: center;
+        width: 270px;
+    }
+}
+  
